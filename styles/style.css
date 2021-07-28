@@ -5,6 +5,9 @@
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
+.top-banner{
+    margin-bottom: 64px;
+}
 
 /* header styles  */
 .header-bg{
@@ -16,4 +19,8 @@ background-color:#264653 ;
 .header-paragraph{
     color: #E0E0E0;
     font-weight: 300;
+}
+/* featured bikes section styles  */
+.grayscale-bikes{
+    filter: grayscale(100%);
 }
