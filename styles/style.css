@@ -8,7 +8,7 @@
 .top-banner{
     margin-bottom: 64px;
 }
-.featured-bikes,.latest-news,.happy-clients{
+.featured-bikes,.latest-news,.happy-clients,.faq-section{
     margin-bottom: 160px;
 }
 
@@ -64,4 +64,10 @@ background-color:#264653 ;
 /* faq section  */
 .faq-section .row{
 color: #383838;
+}
+
+/* footer styles  */
+.footer-bg{
+    background-color: #0B0D17;
+    color: white;
 }
