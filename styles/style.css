@@ -21,6 +21,17 @@ background-color:#264653 ;
     font-weight: 300;
 }
 /* featured bikes section styles  */
+.featured-bikes{
+    margin-bottom: 160px;
+}
 .grayscale-bikes{
     filter: grayscale(100%);
+}
+.orange-text{
+    color: #E76F51;
+}
+.orange-line{
+    background-color: #E76F51;
+    width: 50px;
+    height: 2px;
 }
