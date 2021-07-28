@@ -8,7 +8,7 @@
 .top-banner{
     margin-bottom: 64px;
 }
-.featured-bikes,.latest-news{
+.featured-bikes,.latest-news,.happy-clients{
     margin-bottom: 160px;
 }
 
@@ -31,6 +31,9 @@ background-color:#264653 ;
 .orange-text{
     color: #E76F51;
 }
+.bike-details{
+    color: #6C6C6C;
+}
 .orange-line{
     background-color: #E76F51;
     width: 50px;
@@ -44,3 +47,17 @@ background-color:#264653 ;
 }
 
 /* Happy clients style  */
+.client-details{
+    color: #6C6C6C;
+}
+.client-name{
+    color: #23A6F0;
+    font-weight: 600;
+}
+.filled-star,.empty-star{
+    color: #E77C40;
+}
+.client-occupation{
+    color: #252B42;
+    font-weight: 600;
+}
