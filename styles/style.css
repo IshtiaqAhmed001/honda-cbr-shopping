@@ -21,6 +21,16 @@
     padding: 10px 24px;
     border-radius: 5px;
 }
+.purchase-btn,.checkout-btn{
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    padding: 10px 46px;
+    border-radius: 5px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
 .header-bg{
 background-color:#264653 ;
 }

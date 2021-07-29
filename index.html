@@ -51,14 +51,60 @@
         <section class="container top-banner">
             <div class="row g-5">
                 <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
-                    <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1 class="fw-bold">Honda CBR 300R</h1>
-                    <p class="header-paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint.
-                        Velit
-                        officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <div><button type="button" class="btn btn-warning">Purchase</button></div>
+                    <div>
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="fw-bold">Honda CBR 300R</h1>
+                        <p class="header-paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                            Velit
+                            officia consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <!-- <div><button type="button" class="btn btn-warning">Purchase</button></div> -->
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="purchase-btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title text-dark fw-bold" id="exampleModalLabel">New Honda CBR
+                                            150R</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-dark">
+                                        <p class="fw-lighter">Product Code: 0x4aB</p>
+                                        <h5 class="mb-2">BRAND : <strong>HONDA | More Motor Bike from HONDA</strong>
+                                        </h5>
+                                        <h4>৳ 538,000</h4>
+                                        <p class="fw-lighter">Starting price</p>
+                                        <h5>Quantity</h5>
+                                        <div>
+                                            <select class="form-select w-25" aria-label="Default select example">
+                                                <option selected>Only 1</option>
+                                                <option value="1">Only 2</option>
+                                                <option value="2">Only 3</option>
+                                                <option value="3">Only 4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="checkout-btn">Proceed To Checkout</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal ends  -->
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div><img src="images/header-bike.png" class="w-100" alt=""></div>
