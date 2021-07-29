@@ -96,7 +96,7 @@ color: #383838;
     padding: 0 24px;
 }
 
-/* other products section  */
+/* other products section styles  */
 .bike-specs li{
     margin:10px 0;
 }
@@ -109,6 +109,10 @@ color: #383838;
     padding: 8px 16px;
     border-radius: 5px;
     border: none;
+}
+/* services-section styles */
+.services-section{
+    background-color: rgba(234, 236, 237, 0.309);
 }
 /* footer styles  */
 footer .container{
