@@ -9,7 +9,7 @@
 .top-banner{
     margin-bottom: 64px;
 }
-.featured-bikes,.latest-news,.happy-clients,.faq-section{
+.featured-bikes,.latest-news,.happy-clients,.faq-section,.other-products{
     margin-bottom: 160px;
 }
 
@@ -94,6 +94,21 @@ color: #383838;
     font-weight: 600;
     color: #383838;
     padding: 0 24px;
+}
+
+/* other products section  */
+.bike-specs li{
+    margin:10px 0;
+}
+.bike-specs .list-bg{
+    background-color: #d9edf7;
+}
+.moredetails-btn{
+    background-color: #337ab7;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
 }
 /* footer styles  */
 footer .container{
