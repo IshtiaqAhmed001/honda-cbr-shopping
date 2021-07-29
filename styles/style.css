@@ -1,6 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope&display=swap');
 
 .container{
     /* font-family: 'Inter', sans-serif; */
@@ -80,10 +80,21 @@ background-color:#264653 ;
     font-weight: 600;
 }
 /* faq section  */
+.faq-section{
+    font-family: 'Inter', sans-serif;
+}
 .faq-section .row{
 color: #383838;
 }
-
+.dropdown-btn{
+    border: none;
+    font-size: 0.6em;
+    text-align: start;
+    background-color: white;
+    font-weight: 600;
+    color: #383838;
+    padding: 0 24px;
+}
 /* footer styles  */
 footer .container{
     font-family: 'Manrope', sans-serif;
@@ -94,5 +105,4 @@ footer .container{
 }
 .copyright-text{
     color: #D9DBE1;
-    
 }
